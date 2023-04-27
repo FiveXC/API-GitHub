@@ -29,7 +29,7 @@ event.preventDefault()
     domAPI.innerHTML = ""
     let infosPessoas = await new Promise(async function (resolve, reject){
 
-        let api = await fetch(`https:api.github.com/users/${inputGitHub.value}`)
+        let api = await fetch(`https://api.github.com/users/${inputGitHub.value}`)
     
         if(!inputGitHub.value){
            alert("Por favor preencha o campo de pesquisa.")
@@ -75,7 +75,7 @@ event.preventDefault()
 
 return new Promise(async function (resolve, reject){ 
     
-let api = await fetch(`https:api.github.com/users/${inputGitHub.value}/repos`)
+let api = await fetch(`https://api.github.com/users/${inputGitHub.value}/repos`)
 
  if(api.ok ){
     let apiTratada = await api.json()
