@@ -1,0 +1,30 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "uma landing page bem simples.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiveXC/Torneio-One-Piece.git"
+  },
+  "keywords": [
+    "Javascript",
+    "npm"
+  ],
+  "author": "Juan Pablo Pereira Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FiveXC/Torneio-One-Piece/issues"
+  },
+  "homepage": "https://github.com/FiveXC/Torneio-One-Piece#readme",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
